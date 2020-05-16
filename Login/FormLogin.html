@@ -1,0 +1,200 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title> Form Login</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <script src='https://kit.fontawesome.com/a076d05399.js'>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+	 </script>
+	 <style type="text/css">
+	 .{
+	 	margin: 0px;
+	 	padding: 0px;
+ 		box-sizing: box-sizing;
+	 }
+	 html{font-family: "Roboto", sans-serif}
+	 .wrap{
+	 	height: 400px;
+	 	width: 350px;
+	 	border: 1px solid red;
+	 	margin: 50px auto;
+	 		
+	 }
+
+	 .form{
+	 	width: 90.8%;
+	 
+	 	padding-top: 20px;
+	 	padding-left: 30px;
+	 /*	border: 1px solid pink;*/
+	 
+	 
+	 }
+	 .title{
+	 	display: block;
+	 	width: 100px;
+	 	height: 30px;
+	 	
+	 	font-size: 20px;
+	 margin-bottom: 8px;
+	 margin-top: 10px;
+	 }
+	 .form input{
+	 	width: 250px;
+	 	height: 35px;
+	 	padding: 4px 10px;
+	 	 outline: none;
+	 	 font-size: 16px;
+	 	 transition: all 0.2s ease;
+	 }
+	 .form input:focus{
+	 	border: 1px solid rgb(247,48,251);
+	 	/*cursor: pointer;*/
+	 }
+	 .show-pass{
+
+	 	cursor: pointer;
+	 }
+
+.btnLogin{
+	
+	height: 40px;
+	width: 100px;
+	border-radius: 4px;
+	background: linear-gradient(to right,#12c2e9,#c471ed,#f64f59);
+	margin-top: 20px;
+	font-size: 20px;
+	color: #fff;
+	margin-left: 80px;
+	 transition: all 0.2s ease;
+}
+.btnLogin:hover{
+
+	background-image: linear-gradient(to left,#12c2e9,#c471ed,#f64f59);
+	cursor: pointer;
+}
+i:hover{
+	color: green;
+
+}
+.login{
+	height: auto;
+	width: 100%;
+	margin-left: 120px;
+	margin-top: 40px;
+	font-size: 30px;
+}
+	 </style>
+</head>
+<body>
+   <div class="wrap">
+   <div class="login">
+   <strong> Đăng kí</strong>
+   </div>
+   		<form class="form">
+   	 		<span class="title">Tài Khoản </span>
+   	 		<input type="text" value="" name="txtTen" placeholder="Nhập tài khoản" tabindex="1" />
+   	 		<br>
+   	 		<span class="title">Mật Khẩu </span>
+   	 		<input type="password" value="" name="txtMK" placeholder="Nhập mật khẩu" tabindex="2"/>
+   	 		<i class="fa fa-eye show-pass"></i>
+
+   	 			<button type="button" name="button" class="btnLogin">Login</button>
+   	 	<i class="fa fa-refresh" ></i>
+   	 	
+   	 		</form>
+   	 	
+   	 </div>
+
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("title2.jpg");
+
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 100px;
+  max-width: 300px;
+  padding: 16px;
+  margin-right: 500px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+</div>
+</body>
+</html>

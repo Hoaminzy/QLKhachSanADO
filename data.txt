@@ -1,0 +1,32 @@
+ +++++Nhan Vien+++ 
+
+ insert into tbl_NhanVien values
+  ('NV01','Tran Trong Hieu', 'Nhan Vien','0973546253','2300000','12/04/1992',1,'tx Quang Yen, Quang Ninh', 'Hoat dong', 'BP01'),
+  ('NV02','Le Ngan Anh', 'Pho Phong Maketing','098354635','8900000','05/03/1990',1,'Quan Trung, Nguyen Hue', 'Hoat dong', 'BP02
+
+
+++++Khach Hang++++
+  insert into tbl_KhachHang values
+  ('KH01','Le Dang Quang','12746293','092465233','Viet Nam', 1,'09/02/1993'),
+  ('KH02','Le Trang Phap','18373645','092232343','Viet Nam', 0,'01/02/1996'),
+('KH03','Le Thu Trang','2437453','01234453','My', 1,'09/01/1995')
+
++++++ Dich Vu +++++
+insert into tbl_DichVu values
+(
+'DV1','Massage', 300000
+)
+
+++ + Phong+++
+
+ insert into tbl_Phong values
+  ('P01','Phong 502', 520000, 'Rong 24m3','anh1','LP01','NV01'),
+  ('P02','Phong 503', 600000, 'Rong 64m3','anh2','LP03','NV02'),
+  ('P03','Phong 506', 120000, 'Rong 14m3','anh3','LP02','NV01')
+
++++ Loai Phong +++
+  insert into tbl_LoaiPhong values
+  ('LP01', 'VIP1'),
+  ('LP02', 'VIP2'),
+  ('LP03', 'VIP3'),
+  ('LP04', 'VIP4')

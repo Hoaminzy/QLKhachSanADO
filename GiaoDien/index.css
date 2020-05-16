@@ -1,0 +1,150 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.{
+  padding: 0px;
+  margin: 0px;
+}
+
+#container{
+   min-height: 700px;
+   width: 100%;  
+}
+#sub-contain{
+  width: 1300px;
+
+   min-height: 700px;
+   margin: auto;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("title2.jpg");
+
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-logo{
+   height: 100px;
+   width: 100%;
+   background: blue;
+
+}
+.menu{
+  height: 70px;
+  width: 100%;
+    position: relative;
+
+}
+   .menu ul li{
+          list-style: none;
+          float: left;
+          color: red;
+          padding-top: 15px;
+          padding-left: 30px;
+            margin-left: 40px;
+         }
+         .menu li a{
+          text-decoration: none;
+          color: #093474;
+          font-size: 18px;
+          font-style: bold;
+         }
+         .menu li a:hover{
+          color: #FF6D00;
+         }
+         .menu ul li i{
+          padding-left: 10px;
+         }
+  .header-image{
+  width: 100%;
+  height: 500px;
+
+
+  }
+  .content{
+    width: 100%;
+    height: 800px;
+    
+  }
+  .left-content{
+    width: 25%;
+    min-height: 800px;
+       float : left;
+  
+  }
+  .left-content table{
+   
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+
+  }
+  .left-content table th{
+    height: 30px;
+  
+    padding-left: 90px;
+  }
+  .right-content{
+    width:75%;
+    min-height: 800px;
+     float: right;
+
+  }
+
+  .sub1content{
+
+    width: 100%;
+    height: 400px;
+
+  }
+ 
+ .sub1content .top-subcontent{
+  width: 100%;
+  height: 30px;
+   padding-top: 5px;
+background: red;
+
+}
+.top-subcontent strong{
+  position: relative;
+  line-height: 15px;
+  margin-left: 20px;
+   
+}
+.bottom-subcontent{
+
+position: absolute;
+  height: 370px;
+width: 975px;
+  
+
+
+}
+.content-bottom-subcontent{
+  height: 350px;
+  width: 300px;
+   background: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+
+}
+   .sub2content{
+    width: 100%;
+    height: 400px;
+    
+
+
+  }
+  .footer{
+      width: 100%;
+    height: 200px;
+    background: pink;
+  }
